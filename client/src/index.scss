@@ -10,3 +10,18 @@ html,
 body {
     height: 100%;
 }
+
+.header-chevron {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+    div {
+        svg {
+            background-color: #f2f5f9;
+            border-radius: 16%;
+            margin: 3px;
+        }
+    }
+}

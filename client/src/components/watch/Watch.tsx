@@ -6,7 +6,7 @@ import "./Watch.scss";
 const Watch = () => {
     return (
         <div className="watch__container">
-            <div className="watch__header">
+            <div className="watch__header header-chevron">
                 <h2>Continue to watch</h2>
                 <div className="watch__header__bg">
                     <Icon path={mdiChevronLeft} size={1} />

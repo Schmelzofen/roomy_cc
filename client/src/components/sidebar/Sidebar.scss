@@ -1,10 +1,42 @@
-.sidebar__footer__items {
+.sidebar__container {
+    height: 100vh;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style-type: none;
+    flex-direction: column;
 }
 
 .sidebar__container {
-    width: 15%;
+
+    .sidebar__item {
+        padding: 0 5px 5px 50px;
+        display: flex;
+        align-items: center;
+
+        span {
+            margin-left: 10px;
+        }
+    }
+
+    .sidebar__item:last-of-type {
+        padding: 0 10px 0 50px;
+    }
+}
+
+.sidebar__header {
+    h1 {
+        padding: 5vh 7vh;
+        font-size: 1.7rem;
+        text-align: center;
+        font-weight: bold;
+    }
+}
+
+.sidebar__footer__items {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    list-style-type: none;
+
+    li {
+        margin-right: auto;
+    }
 }

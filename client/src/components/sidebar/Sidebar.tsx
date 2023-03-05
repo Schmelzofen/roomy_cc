@@ -1,5 +1,5 @@
 import Icon from '@mdi/react';
-import { mdiChartBoxOutline, mdiPlayCircleOutline, mdiAccountGroupOutline, mdiHomeCircleOutline } from '@mdi/js';
+import { mdiChartBoxOutline, mdiPlayCircleOutline, mdiAccountOutline, mdiAccountGroupOutline, mdiHomeCircleOutline, mdiBellOutline, mdiLogout } from '@mdi/js';
 
 import "./Sidebar.scss";
 
@@ -13,38 +13,32 @@ const Sidebar = () => {
                 <ul className="sidebar__items">
                     <li className="sidebar__item">
                         <Icon path={mdiHomeCircleOutline} size={1} />
-                        Home
+                        <span>Home</span>
                     </li>
                     <li className="sidebar__item">
                         <Icon path={mdiChartBoxOutline} size={1} />
-                        Bookings
+                        <span>Bookings</span>
                     </li>
                     <li className="sidebar__item">
                         <Icon path={mdiPlayCircleOutline} size={1} />
-                        All Rooms
+                        <span>All Rooms</span>
                     </li>
                     <li className="sidebar__item">
                         <Icon path={mdiAccountGroupOutline} size={1} />
-                        Community
+                        <span>Community</span>
                     </li>
                 </ul>
             </div>
             <div className="sidebar__footer">
                 <ul className="sidebar__footer__items">
                     <li className="sidebar__footer__item">
-                        <i className="material-symbols-outlined">
-                            notifications
-                        </i>
+                        <Icon path={mdiBellOutline} size={1} />
                     </li>
                     <li className="sidebar__footer__item">
-                        <i className="material-symbols-outlined">
-                            person
-                        </i>
+                        <Icon path={mdiAccountOutline} size={1} />
                     </li>
                     <li className="sidebar__footer__item">
-                        <i className="material-symbols-outlined">
-                            logout
-                        </i>
+                        <Icon path={mdiLogout} size={1} />
                     </li>
                 </ul>
             </div>
