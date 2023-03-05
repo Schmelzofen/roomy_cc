@@ -1,0 +1,33 @@
+.statistics__container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+    h2 {
+        padding: 0 0 10px 0;
+    }
+}
+
+.statistics__content {
+    display: flex;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #bfc2c9;
+        border-radius: 5px;
+        margin: 0 10px;
+
+        p,
+        h3 {
+            margin: 3px 0 5px 10px;
+        }
+
+        p {
+            font-size: 0.8rem;
+            color: #404348;
+            font-weight: bolder;
+            padding: 0 10px 0 0;
+        }
+    }
+}

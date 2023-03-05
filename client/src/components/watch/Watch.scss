@@ -1,0 +1,36 @@
+.watch__container {
+    width: 50%;
+}
+
+.watch__content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: white;
+
+    span {
+        color: #cfcfcf;
+    }
+}
+
+.buero__header {
+    display: flex;
+    align-items: center;
+    padding: 10px 0 0 10px;
+}
+
+.bueroEins {
+    background: #444444;
+
+    span {
+        padding: 0 0 0 10px;
+    }
+}
+
+.bueroZwei {
+    background: #2b2b2b;
+
+    span {
+        padding: 0 0 0 10px;
+    }
+}

@@ -1,5 +1,5 @@
 import Icon from '@mdi/react';
-import { mdiChevronLeft, mdiChevronRight } from '@mdi/js';
+import { mdiChevronLeft, mdiChevronRight, mdiPlayCircleOutline } from '@mdi/js';
 
 import "./Watch.scss";
 
@@ -15,12 +15,18 @@ const Watch = () => {
             </div>
             <div className="watch__content">
                 <div className="bueroEins">
-                    <p>Büro 1</p>
-                    <span>Bla</span>
+                    <div className="buero__header">
+                        <p>Head Office, Nürnberg</p>
+                        <Icon path={mdiPlayCircleOutline} size={1} />
+                    </div>
+                    <span>aktuell 7/15</span>
                 </div>
                 <div className="bueroZwei">
-                    <p>Büro 2</p>
-                    <span>Bla</span>
+                    <div className="buero__header">
+                        <p>Office, Berlin</p>
+                        <Icon path={mdiPlayCircleOutline} size={1} />
+                    </div>
+                    <span>aktuell 5/10</span>
                 </div>
             </div>
         </div>
