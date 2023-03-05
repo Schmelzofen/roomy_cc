@@ -3,7 +3,7 @@ import { mdiChartBoxOutline, mdiPlayCircleOutline, mdiAccountGroupOutline, mdiHo
 
 import "./Sidebar.scss";
 
-export const Sidebar = () => {
+const Sidebar = () => {
     return (
         <section className="sidebar__container">
             <div className="sidebar__header">
@@ -51,3 +51,5 @@ export const Sidebar = () => {
         </section>
     );
 };
+
+export default Sidebar;
