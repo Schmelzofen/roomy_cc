@@ -23,11 +23,18 @@
 
 .sidebar__header {
     h1 {
-        padding: 5vh 7vh;
+        padding: 7vh 7vh 9vh 7vh;
         font-size: 1.7rem;
         text-align: center;
-        font-weight: bold;
+        font-weight: 800;
     }
+}
+
+.sidebar__footer {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .sidebar__footer__items {
@@ -35,8 +42,14 @@
     justify-content: right;
     align-items: center;
     list-style-type: none;
+    padding: 0 0 10px 0;
 
     li {
-        margin-right: auto;
+        margin-right: 20px;
+
+        svg {
+            display: block;
+
+        }
     }
 }

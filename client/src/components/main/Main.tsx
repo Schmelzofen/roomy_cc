@@ -14,11 +14,10 @@ const Main = () => {
         <div className="main__wrapper">
             <div className="main__container">
                 <div className="main__header">
-                    <p>New rooms available.
-                        <Icon path={mdiChevronLeft} size={1} />
-                        <a href="/">Link here</a>
-                        <Icon path={mdiChevronRight} size={1} />
-                    </p>
+                    <Icon path={mdiChevronLeft} size={1} />
+                    <p>New rooms available.</p>
+                    <a href="/">Link here</a>
+                    <Icon path={mdiChevronRight} size={1} />
                 </div>
                 <div className="main__content">
                     <div className="main__content__header">

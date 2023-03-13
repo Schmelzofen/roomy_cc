@@ -7,21 +7,30 @@
 
 .main__container {
     background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
 
-    .main__header {
-        background-color: #2b2b2b;
-        display: flex;
-        justify-content: center;
+.main__header {
+    background-color: #2b2b2b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-        p {
-            display: flex;
-            align-items: center;
-            color: #5cc49a;
-        }
+    svg {
+        color: #5cc49a;
+        margin: 0 15px;
+    }
 
-        a {
-            color: #5cc49a;
-        }
+    p {
+        color: #5cc49a;
+        font-size: .85rem;
+        margin: 0 15px 0 0;
+    }
+
+    a {
+        color: #5cc49a;
+        font-size: .85rem;
     }
 }
 
@@ -30,6 +39,21 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
+}
+
+.main__greeting__header {
+    h2 {
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+
+    p {
+        color: #bac2cf;
+    }
+}
+
+.main__content {
+    margin: 5%;
 }
 
 .statistics__watch {
